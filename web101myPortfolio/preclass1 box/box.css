@@ -1,0 +1,37 @@
+article{
+    width: 95%;
+    height: 15%;
+    border: black solid 1pt;
+    padding-left: 10pt;
+}
+
+article > p {
+    width: 50%;
+    height: 100%;
+    border: red dotted 1pt;
+    text-align: center;
+    margin: 1pt auto;
+}
+
+p {
+    border: forestgreen groove 2pt;
+}
+
+.our-margin{
+    margin-top: 5pt;
+    border-style: solid;
+    border-color: black;
+    border-width: 5pt;
+    padding-left: 150pt;
+    text-align: center;
+}
+
+.new-article{
+    border: blue solid 1pt;
+    width: auto;
+    height: auto;
+    min-width: 100pt;
+    max-width: 1000pt;
+    min-height: 150pt;
+    max-height: 1500pt;
+}
